@@ -36,7 +36,7 @@ function Home() {
                 Trending Topics
               </h5>
               <div className="d-flex flex-column">
-                {['technology', 'sports', 'politics', 'entertainment', 'bussiness'].map((topic, index) => (
+                {['technology', 'sports', 'politics', 'entertainment', 'buss'].map((topic, index) => (
                   <Link to={`/${topic}`} key={index}>
                     <img
                       src={`/${topic}.png`}
