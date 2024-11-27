@@ -11,7 +11,7 @@ import {
 import Protected from '.Protected';
 import Signup from '.Signup';
 import Login from '.Login';
-import Home from '.Come';
+import Home from '.Home';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
